@@ -1,4 +1,4 @@
-const socket = io(https://christian0015.github.io/serveur/);
+const socket = io('https://christian0015.github.io/serveur/');
 
 const username = prompt('Entrez votre nom d\'utilisateur :');
 socket.emit('user-connected', username);
