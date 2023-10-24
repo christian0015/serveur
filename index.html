@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat en temps réel</title>
+</head>
+<body>
+    <h1>Chat en temps réel</h1>
+    <div id="userList">
+        <h2>Liste des utilisateurs</h2>
+        <ul id="users"></ul>
+    </div>
+    <div id="chat">
+        <h2>Conversation</h2>
+        <ul id="messages"></ul>
+        <input id="messageInput" type="text" placeholder="Écrivez un message">
+        <button id="sendButton">Envoyer</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
